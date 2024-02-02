@@ -1,0 +1,180 @@
+.free {
+    padding: 5px;
+    background-color: #90604c;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
+
+/* .navbar {
+    margin-top: 20px;
+    position: fixed;
+} */
+
+/* .nav-link {
+    border-bottom: 10px;
+} */
+
+.nav-link:hover {
+    text-decoration: none;
+}
+
+/* #human {
+    width: 220px;
+    height: 40px;
+    margin-left: 100px;
+    font-weight: bolder;
+} */
+
+/* .svg-image { */
+/* float: right; */
+/* /* margin-top: 15px; */
+/* margin-right: 300px; */
+/* } */
+
+/* .bi-search,
+.bi-cart {
+    width: 30px;
+    height: 20px;
+} */
+
+.demobutton{
+    background-color: none;
+}
+
+.demobutton:hover{
+    background-color: #9c5b3f;
+}
+
+.raddish {
+    background-color: rgb(244, 201, 157);
+}
+
+.font1 {
+    font-family: var(--font-heading-family);
+    font-style: var(--font-heading-style);
+    font-weight: var(--font-heading-weight);
+    letter-spacing: calc(var(--font-heading-scale) * .06rem);
+    color: rgb(var(--color-foreground));
+    line-height: calc(1 + .3/max(1, var(--font-heading-scale)));
+}
+
+#addcolor {
+    background-color: #90604c;
+    /* color: red; */
+}
+
+#addcolor:hover {
+    background-color: #9c5b3f;
+    cursor: pointer;
+}
+
+#buycolor {
+    border-color: #90604c;
+    background-color: white;
+}
+
+#buycolor:hover {
+    background-color: rgb(251, 232, 232);
+    cursor: pointer;
+}
+
+.shopcolor {
+    background-color: #90604c;
+}
+
+.shopcolor:hover {
+    background-color: #9c5b3f;
+}
+
+.bestcolor {
+    background-color: rgb(225, 223, 219);
+}
+
+.font2 {
+    color: #9c5b3f;
+}
+
+.rs {
+    color: #9c5b3f;
+}
+
+.share1 {
+    margin-bottom: 50px;
+}
+
+#selfawarenessjournal-2,
+#expense-tracker,
+#dailyjournal-2,
+#affirmationflipup-2,
+#gratitudelog-2,
+#manifestation-workbook,
+#plan-your-day,
+#plan-your-week {
+    text-decoration: none;
+}
+
+#selfawarenessjournal-2:hover,
+#expense-tracker:hover,
+#dailyjournal-2:hover,
+#affirmationflipup-2:hover,
+#gratitudelog-2:hover,
+#manifestation-workbook:hover,
+#plan-your-day:hover,
+#plan-your-week:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+#official {
+    color: #9c5b3f;
+    text-decoration: none;
+}
+
+#official:hover {
+    text-decoration: underline;
+}
+
+#new-year,
+#welness-rituals,
+#five-things {
+    text-decoration: none;
+}
+
+#new-year:hover,
+#welness-rituals:hover,
+#five-things:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Blog Pages */
+
+#mental-health,
+#new-year,
+#welness-rituals,
+#five-things,
+#way-will-help,
+#example-vision {
+    text-decoration: none;
+}
+
+#mental-health:hover #new-year:hover,
+#welness-rituals:hover,
+#five-things:hover,
+#way-will-help:hover,
+#example-vision:hover {
+    text-decoration: none;
+}
+
+
+/* Talk Page */
+
+.color1 {
+    background-color: #eae2de;
+}
+
+.demo h1 {
+    margin-left: 13%;
+}

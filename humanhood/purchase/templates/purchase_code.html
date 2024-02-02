@@ -1,0 +1,129 @@
+{% extends "humanhood/templates/base.html" %}
+
+{% block main %}
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="https://kit.fontawesome.com/107764b3dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <img src="{% static 'Images\five-things.webp' %}" alt="five-things" width="100%" height="auto"> -->
+
+    <div class="container-fluid">
+        <div class="row p-0">
+            <div class="col-sm-12 p-0">
+                <img src="{% static 'Images\desktop_banners_14.webp' %}" alt="desktop_banners_14" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="text-center mt-4">
+                <button class="p-3 px-4" style="background-color: #90604c; color: white;">ADD TO CART NOW!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="text-center mt-5">
+                <h1>Your cart is empty</h1>
+            </div>
+
+            <div class="text-center mt-4 mb-4">
+                <a href="#" class="text-decoration-none" style="color: #ce8768;">Continue shopping</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mb-5" style="background-color: rgb(243, 235, 223);">
+        <div class="row">
+            <div class="text-center mt-4">
+                <h1 style="color: #90604c;">AVAILABLE OFFERS FOR YOU</h1>
+            </div>
+
+            <div class="text-center mt-3">
+                <h6 style="color: #ce967d; letter-spacing: 0.1rem;">USE THE CODE WELCOME5 FOR A 5% DISCOUNT ON YOUR CART
+                </h6>
+            </div>
+
+            <div class="text-center mt-3">
+                <h6 style="color: #ce967d; letter-spacing: 0.1rem;">USE THE CODE GROWTH10 FOR A 10% DISCOUNT ON CART
+                    ABOVE RS 1200</h6>
+            </div>
+
+            <div class="text-center mt-3 mb-4">
+                <h6 style="color: #ce967d; letter-spacing: 0.1rem;">AVAIL FREE SHIPPING ON ALL YOUR PREPAID ORDERS</h6>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h5>Featured collection</h5>
+        <div class="row">
+            <!-- <div class="col"></div> -->
+
+            <div class="col-md-3 mt-3 mb-5">
+                <a href="#" class="text-decoration-none">
+                    <img src="{% static 'Images\DatedPlanner-garden.webp' %}" alt="DatedPlanner-garden" width="100%" height="auto">
+                    <h6 class="mt-3 text-black">2024 Dated Planner: Garden of Dreams + Free Affirmation Flip Up</h6>
+                    <span class="text-black"><del>Rs. 1,499.00</del></span> &nbsp;
+                    <span class="text-black">Rs. 1,125.00</span>
+                </a>
+            </div>
+
+            <div class="col-md-3 mt-3 mb-5">
+                <a href="#" class="text-decoration-none">
+                    <img src="{% static 'Images\DatedPlanner-GuidingLight.webp' %}" alt="DatedPlanner-GuidingLight" width="100%" height="auto">
+                    <h6 class="mt-3 text-black">2024 Dated Planner: Guiding Light + Free Affirmation Flip Up</h6>
+                    <span class="text-black"><del>Rs. 1,499.00</del></span> &nbsp;
+                    <span class="text-black">Rs. 1,125.00</span>
+                </a>
+            </div>
+
+            <div class="col-md-3 mt-3 mb-5">
+                <a href="#" class="text-decoration-none">
+                    <img src="{% static 'Images\dreams-reality.webp' %}" alt="dreams-reality" width="100%" height="auto">
+                    <h6 class="mt-3 text-black">Dreams to Reality Bundle</h6>
+                    <span class="text-black">Rs. 2,999.00</span>
+                </a>
+            </div>
+
+            <div class="col-md-3 mt-3 mb-5">
+                <a href="#" class="text-decoration-none">
+                    <img src="{% static 'Images\productivity-duo.webp' %}" alt="productivity-duo" width="100%" height="auto">
+                    <h6 class="mt-3 text-black">Productivity Duo</h6>
+                    <span class="text-black">Rs. 699.00</span>
+                </a>
+            </div>
+
+            <!-- <div class="col"></div> -->
+
+            <div class="text-center mb-5">
+                <a href="#" class="text-decoration-none"><span style="color: #ce967d;">View all</span></a>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+
+</body>
+
+</html>
+
+{% endblock %}

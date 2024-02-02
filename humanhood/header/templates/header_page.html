@@ -1,0 +1,150 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="https://kit.fontawesome.com/107764b3dc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid p-0 bg-info">
+        <div class="justify-content ">
+            <a href="#" class="text-decoration-none">
+                <p class="text-center text-black free">Avail FREE SHIPPING on your prepaid orders now! <span
+                        style='font-size:20px;'>&#8594;</span>
+                </p>
+            </a>
+        </div>
+    </div>
+    <div class="container-fluid navbar-light p-0">
+
+        <nav class="navbar navbar-expand-lg  bg-light">
+            <div class="container">
+
+                <a class="navbar-brand" href="#"><img src="{% static 'Images\humanhood_logo.avif' %}" width="200"
+                        height="auto"></a>
+
+                <div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="col collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link mx-1 active" aria-current="page" href="/">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link mx-1 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="/purchasepage">Shop All</a></li>
+                                    <li><a class="dropdown-item" href="/">Dream to Reality Collection</a></li>
+                                    <li><a class="dropdown-item" href="/talkpage">Self Help Products</a></li>
+                                    <li><a class="dropdown-item" href="/aboutpage">Merchandise</a></li>
+                                    <li><a class="dropdown-item" href="/purchasepage">Bulks Orders</a></li>
+                                    <li><a class="dropdown-item" href="/blogpage">Thoughtful Gifting</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-1" href="/joinpage">Join Our Community</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-1" href="/blogpage">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-1" href="/talkpage">Talk Theory</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-1" href="/aboutpage">About Us</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <ul class="justify-content mt-2">
+
+                    <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#myModal" class="border-0">
+                        <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                                viewBox="0 0 512 512">
+                                <path fill="#000000"
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                            </svg></a>
+                    </button> -->
+
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#myModal" >
+                         <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                                viewBox="0 0 512 512">
+                                <path fill="#000000"
+                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                            </svg></a>
+
+                    &nbsp;
+                    
+
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <div class="modal-body">
+                                    <input class="border-0 justify-content-start p-1 m-0"
+                                        style="width: 70%; height: auto;" type="search" name="search" id="search"
+                                        placeholder="search" value="">
+                                    <button type="button" class="border-0 bg-white">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="20" width="20"
+                                                viewBox="0 0 512 512">
+                                                <path fill="#000000"
+                                                    d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                                            </svg></a>
+                                    </button>
+
+                                    
+                                    <a href="#">
+                                        <button type="button" class="border-0 bg-white" style="float: right;"
+                                            data-bs-dismiss="modal"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                                                width="18" viewBox="0 0 384 512">
+                                                <path fill="#000000"
+                                                    d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                                            </svg></button>
+                                    </a>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <a href="/purchasepage"><svg xmlns="http://www.w3.org/2000/svg" height="22" width="20"
+                            viewBox="0 0 448 512">
+                            <path fill="#000000"
+                                d="M160 112c0-35.3 28.7-64 64-64s64 28.7 64 64v48H160V112zm-48 48H48c-26.5 0-48 21.5-48 48V416c0 53 43 96 96 96H352c53 0 96-43 96-96V208c0-26.5-21.5-48-48-48H336V112C336 50.1 285.9 0 224 0S112 50.1 112 112v48zm24 48a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm152 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z" />
+                        </svg></a>
+
+
+                </ul>
+            </div>
+
+        </nav>
+
+    </div>
+
+</body>
+
+</html>
