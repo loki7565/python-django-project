@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'footer',
     'search',
     'signupform',
+    'index',
 
 ]
 
